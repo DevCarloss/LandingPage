@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" type = "text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h3>OpenAI</h3>
+        <nav>
+            <a>Home</a>
+            <a href="https://github.com/DevCarloss/BotGPT">Open Source</a>
+            <a href="https://discord.gg/jXBRzVuE">Servidor Discord</a>
+        </nav>
+    </div>
+    <div class="info">
+        <div class="info-content">
+            <h1>BotGPT</h1>
+            <h3>Discord BOT</h3>
+            <p>O bot do Discord que utiliza a API do OpenAI é uma ferramenta poderosa que pode ajudá-lo em diversas tarefas relacionadas à programação. Com essa tecnologia, você pode facilmente buscar informações relevantes, editar textos de maneira eficiente e avaliar códigos programados.<br><br>Por meio da API do OpenAI, o bot pode acessar uma ampla gama de conhecimentos e dados, permitindo que você encontre respostas para suas dúvidas em tempo real. Além disso, ele também pode ser usado para melhorar a qualidade do seu código, sugerindo soluções para problemas comuns e ajudando a encontrar erros em sua programação.</p>
+            <button>Adicionar-Me</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $('button').click(function(){
+            window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=1076252801707016252&permissions=3072&scope=bot'
+        })
+    </script>
+</body>
+</html>
